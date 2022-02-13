@@ -11,7 +11,7 @@ As a last resort, you can always manually set each device to use Pi-hole as thei
 Pi-hole will not be used by the host automatically after installation. To have the host resolve though Pi-hole and your configured blocking lists, you can make the host use Pi-hole as upstream DNS server:
 
 !!! warning
-    If your Pi-hole host is using Pi-hole as upstream DNS server and Pi-hole fails, your host looses DNS resolution. This can prevent successful repair attempts, e.g. by `pihole -r` as it needs a working internet connection.
+    If your Pi-hole host is using Pi-hole as upstream DNS server and Pi-hole fails, your host loses DNS resolution. This can prevent successful repair attempts, e.g. by `pihole -r` as it needs a working internet connection.
 
   If your OS uses `dhcpcd` for network configuration, you can add to your `/etc/dhcpcd.conf`
 
